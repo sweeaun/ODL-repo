@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="git.openembedded.org"
-           alias="origin"
-           fetch="git://git.openembedded.org" />
+  <remote  name="git.openembedded.org"		alias="origin"		fetch="git://git.openembedded.org" />
 
-  <remote  name="git.yoctoproject.org"
-           alias="origin"
-           fetch="git://git.yoctoproject.org" />
+  <remote  name="git.yoctoproject.org"		alias="origin"		fetch="git://git.yoctoproject.org" />
 
   <remote  name="github.com/01org"
            alias="origin"
