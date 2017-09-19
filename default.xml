@@ -33,7 +33,7 @@
 
 	  <project name="meta-yocto"
            remote="git.yoctoproject.org"
-           path="odl/meta-odl"
+           path="odl/meta-yocto"
 	   revision="pyro" >
   </project>
 
