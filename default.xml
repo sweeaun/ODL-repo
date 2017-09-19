@@ -13,19 +13,19 @@
   <project name="openembedded-core"
            remote="git.openembedded.org"
            path="openembedded-core"
-           branch="ref/heads/pyro" >
+           revision="ref/heads/pyro" >
   </project>
 
   <project name="bitbake"
            remote="git.openembedded.org"
            path="bitbake"
-           branch="ref/heads/master" >
+           revision="ref/heads/master" >
   </project>
 
   <project name="meta-intel"
            remote="git.yoctoproject.org"
            path="meta-intel"
-	   branch="ref/heads/pyro" >
+	   revision="ref/heads/pyro" >
 <!--       revision="3afa94c979c984b978142170b8dbe6533ab8536c" > -->
 <!--       branch="refs/heads/pyro" -->
   </project>
