@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="git.openembedded.org"
+           alias="origin"
+           fetch="git://git.openembedded.org" />
+
+  <remote  name="git.yoctoproject.org"
+           alias="origin"
+           fetch="git://git.yoctoproject.org" />
+
+  <remote  name="github.com/01org"
+           alias="origin"
+           fetch="https://github.com/01org" />
+		   
+<!-- start project -->
+
+  <project name="openembedded-core"
+           remote="git.openembedded.org"
+           path="openembedded-core"
+           branch="ref/heads/pyro" >
+  </project>
+
+  <project name="bitbake"
+           remote="git.openembedded.org"
+           path="bitbake"
+           branch="ref/heads/master" >
+  </project>
+
+  <project name="meta-intel"
+           remote="git.yoctoproject.org"
+           path="meta-intel"
+	   branch="ref/heads/pyro" >
+<!--       revision="3afa94c979c984b978142170b8dbe6533ab8536c" > -->
+<!--       branch="refs/heads/pyro" -->
+  </project>
+
